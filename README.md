@@ -82,3 +82,28 @@ The platform can be used for:
 ## Status
 
 MVP (Minimum Viable Product)
+## Architecture
+
+The platform follows a modular FastAPI architecture.
+
+### API Layer
+
+Handles REST API requests and responses.
+
+### Models Layer
+
+Defines database entities and relationships.
+
+### Schemas Layer
+
+Validates incoming and outgoing data.
+
+### Security Layer
+
+Provides authentication and authorization mechanisms.
+
+### Database Layer
+
+Manages PostgreSQL database connectivity.
+
+This architecture allows future expansion with analytics, reporting, AI modules and administrative interfaces.
